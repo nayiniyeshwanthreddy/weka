@@ -11,10 +11,17 @@ A simple Java Maven project demonstrating how to use WEKA with a small ARFF data
    mvn clean package
    ```
 
-3. Run the sample:
+3. Run one of the sample classes:
 
    ```bash
    java -jar target/weka-demo-1.0-SNAPSHOT.jar
+   ```
+
+   or for the other examples:
+
+   ```bash
+   java -cp target/weka-demo-1.0-SNAPSHOT.jar com.example.weka.NaiveBayesExample
+   java -cp target/weka-demo-1.0-SNAPSHOT.jar com.example.weka.IBkExample
    ```
 
 ## What it does
